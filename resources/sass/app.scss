@@ -20,17 +20,57 @@ html{
   margin-left: auto;
   margin-right: auto;
 }
-.lh-1{
-  line-height: 1!important;
+@for $i from 1 through 2{
+  .lh-#{$i}{
+    line-height: #{$i}!important;
+  }
+  @for $j from 1 through 9{
+    .lh-#{$i}_#{$j}{
+      line-height: #{$i + $j/10}!important;
+    }
+  }
 }
-.lh-1_4{
-  line-height: 1.4!important;
+@for $i from 1 through 6{
+  .fz-#{$i}{
+    font-size: #{$i}rem!important;
+  }
+  @for $j from 1 through 9{
+    .fz-#{$i}_#{$j}{
+      font-size: #{$i + $j/10}rem!important;
+    }
+  }
+}
+$window-list: sm md lg xl;
+@each $current-window in $window-list {
+  @include media-breakpoint-up($current-window) {
+    @for $i from 1 through 2{
+      .lh-#{$current-window}-#{$i}{
+        line-height: #{$i}!important;
+      }
+      @for $j from 1 through 9{
+        .lh-#{$current-window}-#{$i}_#{$j}{
+          line-height: #{$i + $j/10}!important;
+        }
+      }
+    }
+    @for $i from 1 through 6{
+      .fz-#{$current-window}-#{$i}{
+        font-size: #{$i}rem!important;
+      }
+      @for $j from 1 through 9{
+        .fz-#{$current-window}-#{$i}_#{$j}{
+          font-size: #{$i + $j/10}rem!important;
+        }
+      }
+    }
+  }
+}
+.display-3{
+  font-size: 4.333333rem;
 }
 .display-md-3{
   @media (min-width: 768px) {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+    font-size: 4.333333rem;
   }
 }
 .clip-path-top-right{
@@ -54,23 +94,14 @@ html{
 }
 
 .block-line{
-  display: inline-block;
-  width: 5.8333rem;
-  height: 4px;
+  width: #{154/$html-font-size}rem;
+  height: 3px;
   background: $green;
-  margin-bottom: .4rem;
-  margin-left: 2rem;
 }
 .text-black{
   color: #000000;
 }
-p{
-  line-height: $line-height-p-base;
-}
-.p-line-height{
-   line-height: $line-height-p-base!important;
- }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
   line-height: $line-height-base;
 }
 .zi-1{
@@ -80,10 +111,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   z-index: 2;
 }
 .text-muted{
-  color: #898989!important;
+  color: $gray-500--m!important;
 }
 .font-weight-semibold{
   font-weight: 600!important;
+}
+.font-weight-extrabold{
+  font-weight: 800!important;
 }
 .text-black-50{
   color: #222222!important;
@@ -96,9 +130,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .text-blue{
   color: $blue-500!important;
 }
+.border-bottom--underline{
+  border-bottom: 5px solid $green;
+}
+// col-7
+//@include lineGrad($cyan, $blue, 56.55%);
 
 @mixin lineGrad($colorStart, $colorEnd, $border){
   background: linear-gradient(to right, $colorStart 0%,$colorStart $border,$colorStart $border,$colorEnd $border,$colorEnd 100%);
+}
+@mixin lineGradVertical($colorStart, $colorEnd, $border){
+  background: linear-gradient(to bottom, $colorStart 0%,$colorStart $border,$colorStart $border,$colorEnd $border,$colorEnd 100%);
 }
 
 @import 'navbar';
@@ -107,12 +149,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 @import 'inputs';
 @import 'checkboxes';
 @import 'screen1';
-@import 'screen2';
+//@import 'screen2';
+@import 'screen2_1';
 @import 'screen3';
-@import 'screen4';
-@import 'screen5';
+@import 'screen3_1';
+//@import 'screen4';
+@import 'screen4_1';
+//@import 'screen5';
+@import 'screen5_1';
 @import 'screen6';
 @import 'screen7';
+@import 'screen7_1';
 @import 'screen8';
 @import 'screen9';
 @import 'screen10';

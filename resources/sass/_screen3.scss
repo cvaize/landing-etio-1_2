@@ -1,15 +1,11 @@
 .screen--3{
-  padding-top: 20rem;
-  @media (max-width: 400px) {
-    padding-top: 25rem;
-  }
   &__display-4{
     font-size: 4rem;
     @media (min-width: 992px) {
-      padding-left: 4rem;
+      margin-left: 4rem;
     }
     @media (min-width: 1200px) {
-      padding-left: 8rem;
+      margin-left: 8rem;
     }
     @media (max-width: 767.98px) {
       font-size: 2rem!important;
@@ -22,9 +18,9 @@
     }
   }
   &__circle{
-    width: 5rem;
-    height: 5rem;
-    background-color: $primary;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: $gray-600--m;
     background-image: url(/img/screen3/checked.png);
     background-repeat: no-repeat;
     -webkit-background-size: 56%;
@@ -35,6 +31,6 @@
     margin-left: 23%;
     margin-right: 6%;
     flex-grow: 1;
-    border-bottom: 2px solid #a0c7f3;
+    border-bottom: 1px solid $gray-600--m;
   }
 }

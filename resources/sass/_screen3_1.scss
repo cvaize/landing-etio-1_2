@@ -1,0 +1,95 @@
+.screen--3_1{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 4rem;
+  }
+  position: relative;
+  &__offset{
+    background: $white;
+    padding-top: 20rem;
+    @include media-breakpoint-down(sm) {
+      padding-top: 25rem;
+    }
+  }
+  &__bg{
+    overflow: hidden;
+    @include lineGrad($cyan, $blue, 69.3%); // col-9
+    @include media-breakpoint-down(sm) {
+      background: $cyan;
+    }
+  }
+  &__box{
+    padding: 3rem 1rem .5rem 1rem;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @include media-breakpoint-down(md) {
+      height: 200px;
+      min-width: 200px;
+      flex-grow: 1;
+      width: 100%;
+    }
+    .block-line{
+      width: 60%;
+    }
+  }
+  &__wrap{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    @include media-breakpoint-down(lg) {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  &__bg--2{
+    position: relative;
+  }
+  &__comment{
+    position: relative;
+    top: 50%;
+    background: $white;
+    box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.1);
+    &__wrap{
+      margin-top: -18.5rem;
+      padding-top: 7rem;
+      @media (max-width: 400px) {
+        margin-top: -23.5rem;
+      }
+    }
+    .block-line{
+      display: inline-block;
+      margin-bottom: .4rem;
+      margin-left: 2rem;
+      width: 12rem;
+      @include media-breakpoint-down(xs) {
+        display: block;
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    &:before, &:after{
+      content: '';
+      position: absolute;
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+      background-size: contain;
+      width: 100px;
+      height: 70px;
+    }
+    &:before{
+      background-image: url(/img/screen2/q.png);
+      top: 0;
+      left: -120px;
+    }
+    &:after{
+      background-image: url(/img/screen2/q2.png);
+      bottom: 0;
+      right: -120px;
+    }
+  }
+}

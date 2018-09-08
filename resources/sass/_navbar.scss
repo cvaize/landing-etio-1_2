@@ -51,7 +51,7 @@
   .navbar-nav {
     width: 100%;
     min-height: #{120/$html-font-size}rem;
-    justify-content: space-around;
+    justify-content: flex-end;
     .nav-item {
       white-space: nowrap;
       text-align: center;

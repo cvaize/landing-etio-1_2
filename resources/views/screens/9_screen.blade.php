@@ -25,7 +25,7 @@
                         A presentation for pitch sessions
                     </p>
                 </div>
-                <a href="#" class="btn btn-success screen--9__btn-absolute btn--main ml-5">
+                <a href="#" class="btn btn-success screen--9__btn-absolute ml-5">
                     read tech paper
                 </a>
             </div>
@@ -41,7 +41,7 @@
                         A short explanation of the purposes, the technical stack and the tokenomics
                     </p>
                 </div>
-                <a href="#" class="btn btn-success screen--9__btn-absolute btn--main ml-5">
+                <a href="#" class="btn btn-success screen--9__btn-absolute ml-5">
                     read tech paper
                 </a>
             </div>
@@ -57,7 +57,7 @@
                         A full, detailed description of the DAO applied to Life Extension Purpose
                     </p>
                 </div>
-                <a href="#" class="btn btn-success screen--9__btn-absolute btn--main ml-5">
+                <a href="#" class="btn btn-success screen--9__btn-absolute ml-5">
                     read tech paper
                 </a>
             </div>

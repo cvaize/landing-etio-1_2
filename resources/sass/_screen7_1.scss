@@ -1,0 +1,33 @@
+.screen--7_1{
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  @include media-breakpoint-down(md) {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+  }
+  &__bg{
+    background: $white;
+    @include lineGradVertical($cyan, $white, 50%);
+  }
+  &__box{
+    filter: drop-shadow(0px 8px 16px rgba(33, 33, 33, 0.1));
+  }
+  &__circle{
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 58%;
+    background-size: 58%;
+    border: 1px solid #eef0f4;
+    position: absolute;
+    top: -33.5px;
+    left: 3rem;
+    z-index: 1;
+    background-color: $white;
+  }
+  &__wrapper-box{
+    margin-bottom: 7rem;
+  }
+}

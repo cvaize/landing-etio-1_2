@@ -3,17 +3,17 @@
         <div class="row">
             <div class="col-xl-7 screen--7__col-xl-7 py-lg-5">
                 <div class="screen--7__content">
-                    <p class="h1 screen--7__display-4 text-white mb-5">
-                        Powered by Fast
-                        <span class="block-line bg-primary"></span> <br>
+                    <p class="h1 screen--7__display-4 text-white mb-4">
+                        Powered by Fast <br>
                         and Secure Blockchains
                     </p>
+                    <div class="block-line bg-white mb-4"></div>
                     <p class="h3 screen--7__desc font-weight-normal text-white mb-5 pb-4">
                         ET Protocol is using EOS.IO, one of the fastest <br>
                         blockchain protocols with low transaction fees, <br>
                         and Hyperledger by IBM
                     </p>
-                    <a href="#" class="btn btn-primary btn--main">
+                    <a href="#" class="btn btn-primary">
                         read tech paper
                     </a>
                 </div>

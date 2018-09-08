@@ -20,7 +20,7 @@
                     <p class="h3 font-weight-bold text-success pb-5 my-3">
                         This is what the future of fiduciaries looks like!
                     </p>
-                    <a href="#" class="btn btn-primary btn--main">
+                    <a href="#" class="btn btn-primary">
                         read tech paper
                     </a>
                 </div>

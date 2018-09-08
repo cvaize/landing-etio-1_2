@@ -24,45 +24,21 @@
     }
   }
   &__circle{
-    width: 5rem;
-    height: 5rem;
-    background-color: $cyan;
-    background-image: url(/img/screen6/checked.png);
-    background-repeat: no-repeat;
-    -webkit-background-size: 56%;
-    background-size: 56%;
-    background-position: center;
+    width: 42px;
+    height: 42px;
+    background: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $blue;
+    font-size: 2rem;
+    line-height: 1;
     &__wrap{
       margin-right: 15%;
     }
   }
   &__hr{
-    //margin-left: 23%;
-    //margin-right: 6%;
     flex-grow: 1;
-    border-bottom: 2px solid #a0c7f3;
-    &--pre{
-      border-bottom: 2px solid #a0c7f3;
-      width: 3rem;
-    }
-  }
-  &__wrapper{
-    @media (min-width: 768px) {
-      .screen--6__item:first-child{
-        .screen--6__hr--pre{
-          opacity: 0;
-        }
-      }
-      .screen--6__item:nth-child(even){
-        .screen--6__hr--pre{
-          opacity: 0;
-        }
-      }
-      .screen--6__item:nth-child(odd){
-        .screen--6__hr{
-          margin-right: 3rem;
-        }
-      }
-    }
+    border-bottom: 1px solid #81b2ec;
   }
 }

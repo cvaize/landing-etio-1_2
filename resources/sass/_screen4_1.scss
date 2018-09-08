@@ -1,0 +1,37 @@
+.screen--4_1{
+  &__bg{
+    @include lineGrad($white, $cyan, 22.8%);
+    @include media-breakpoint-down(sm) {
+      background: $cyan;
+    }
+    position: relative;
+    &:before{
+      content: '';
+      background: $blue;
+      height: 30rem;
+      position: absolute;
+      left: 0;
+      top: 4rem;
+      right: 40%;
+      @include media-breakpoint-down(lg) {
+        right: 0;
+      }
+
+    }
+  }
+  &__wrapper-title{
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+  &__ml{
+    @media (min-width: 992px) {
+      margin-left: 4rem;
+    }
+    @media (min-width: 1200px) {
+      margin-left: 8rem;
+    }
+  }
+  &__box{
+    box-shadow: 0px 6px 46px 0px rgba(33, 33, 33, 0.07);
+  }
+}
