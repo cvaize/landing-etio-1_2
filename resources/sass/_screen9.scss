@@ -1,0 +1,44 @@
+.screen--9{
+  &__img{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: 56%;
+      left: 14%;
+      width: 15rem;
+      height: 15rem;
+      background-image: url(/img/screen9/q.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      z-index: 1;
+    }
+  }
+  &__btn-absolute{
+    position: relative;
+    top: -45px;
+    z-index: 1;
+    @media (min-width: 500px) {
+      width: 250px;
+    }
+  }
+  &__bg{
+    background: linear-gradient(to right, $blue 0%,$blue 60%,$blue 60%,$cyan 60%,$cyan 100%);
+    @media (max-width: 1199.8px) {
+      background: $blue;
+    }
+  }
+  &__comment{
+    &__name{
+      @media (min-width: 500px) {
+        font-size: 1.6rem!important;
+      }
+    }
+    &__text{
+      @media (max-width: 500px) {
+        font-size: 1.2rem!important;
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import '~hamburgers/dist/hamburgers.min.css';
+
+@import '../../node_modules/selectric/src/selectric';
+
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html{
+  font-size: #{$html-font-size}px;
+}
+.container-max-width{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lh-1{
+  line-height: 1!important;
+}
+.lh-1_4{
+  line-height: 1.4!important;
+}
+.display-md-3{
+  @media (min-width: 768px) {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+.clip-path-top-right{
+  position: relative;
+  -webkit-clip-path: polygon(calc(100% - 2rem) 0, 100% 2rem, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(calc(100% - 2rem) 0, 100% 2rem, 100% 100%, 0 100%, 0 0);
+  &:before{
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 2rem;
+    height: 2rem;
+    background: $green;
+  }
+  &--blue{
+    &:before{
+      background: $blue;
+    }
+  }
+}
+
+.block-line{
+  display: inline-block;
+  width: 5.8333rem;
+  height: 4px;
+  background: $green;
+  margin-bottom: .4rem;
+  margin-left: 2rem;
+}
+.text-black{
+  color: #000000;
+}
+p{
+  line-height: $line-height-p-base;
+}
+.p-line-height{
+   line-height: $line-height-p-base!important;
+ }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  line-height: $line-height-base;
+}
+.zi-1{
+  z-index: 1;
+}
+.zi-2{
+  z-index: 2;
+}
+.text-muted{
+  color: #898989!important;
+}
+.font-weight-semibold{
+  font-weight: 600!important;
+}
+.text-black-50{
+  color: #222222!important;
+}
+.bg-xl-transparent{
+  @media (min-width: 1200px) {
+    background: transparent!important;
+  }
+}
+.text-blue{
+  color: $blue-500!important;
+}
+
+@mixin lineGrad($colorStart, $colorEnd, $border){
+  background: linear-gradient(to right, $colorStart 0%,$colorStart $border,$colorStart $border,$colorEnd $border,$colorEnd 100%);
+}
+
+@import 'navbar';
+@import 'footer';
+@import 'buttons';
+@import 'inputs';
+@import 'checkboxes';
+@import 'screen1';
+@import 'screen2';
+@import 'screen3';
+@import 'screen4';
+@import 'screen5';
+@import 'screen6';
+@import 'screen7';
+@import 'screen8';
+@import 'screen9';
+@import 'screen10';
+
+
+
+

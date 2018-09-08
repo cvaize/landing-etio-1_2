@@ -1,0 +1,35 @@
+.screen--1{
+  &__bg{
+    @include lineGrad($white, $blue, 58.3333333%);
+  }
+}
+.bg-main{
+  background-image: url(/img/main.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 60%;
+  background-size: 60%;
+  background-position: 104% 40%;
+  position: relative;
+  @media (max-width: 767.98px) {
+    background-size: 80%;
+  }
+}
+.bg-main--1{
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    left: 231px;
+    top: 0;
+    right: 340px;
+    //width: 60%;
+    height: 100%;
+    background: $cyan;
+    z-index: 0;
+    @media (max-width: 767.98px) {
+      left: auto;
+      width: 50%;
+      right: 0;
+    }
+  }
+}

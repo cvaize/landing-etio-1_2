@@ -1,0 +1,15 @@
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  font-weight: 900;
+  border-radius: 0;
+  text-transform: uppercase;
+  &--main{
+    width: 216px;
+  }
+  *{
+    line-height: 1;
+  }
+}

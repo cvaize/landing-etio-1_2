@@ -1,0 +1,110 @@
+.screen--2{
+  &__title{
+    @media (max-width: 767.98px) {
+      font-size: 1.6rem!important;
+    }
+  }
+  &__content{
+    @media (max-width: 767.98px) {
+      font-size: 1.2rem!important;
+    }
+  }
+  &__title--2{
+    @media (max-width: 767.98px) {
+      font-size: 1rem!important;
+    }
+  }
+  &__content--2{
+    .block-line{
+      width: 14rem;
+      height: 2px;
+      margin-bottom: .5rem;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 1rem!important;
+    }
+  }
+  &__bg{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      right: 32%;
+      height: 100%;
+      background: $white;
+      @media (max-width: 991.98px) {
+        right: 0;
+      }
+    }
+  }
+  &__bg--2{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      right: 32%;
+      height: 100%;
+      background-color: $cyan;
+      background-image: url(/img/screen2/q.png);
+      background-repeat: no-repeat;
+      background-position: 15% 25%;
+      -webkit-background-size: 15%;
+      background-size: 15%;
+      @media (max-width: 1199.98px) {
+        background-position: 15% 50%;
+      }
+      @media (max-width: 991.98px) {
+        right: 0;
+      }
+    }
+  }
+  &__display-4{
+    font-size: 4rem;
+    @media (max-width: 575.98px) {
+      font-size: 2rem!important;
+    }
+    .block-line{
+      margin-bottom: 1rem;
+    }
+  }
+  &__box{
+    padding: 1.5rem;
+    display: inline-block;
+    border: 1px solid #e7e7e7;
+    background: $white;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    &__text{
+      margin-top: 1.5rem;
+      line-height: 1.4;
+      margin-bottom: 0px;
+    }
+  }
+  &__comment{
+    position: relative;
+    top: 50%;
+    background: $white;
+    background-image: url(/img/screen2/q2.png);
+    background-repeat: no-repeat;
+    background-position: 96% 80%;
+    -webkit-background-size: 9%;
+    background-size: 9%;
+    @media (max-width: 767.98px) {
+      background-position: 96% 96%;
+      -webkit-background-size: 15%;
+      background-size: 15%;
+    }
+    &__wrap{
+      margin-top: -18.5rem;
+      padding-top: 7rem;
+      @media (max-width: 400px) {
+        margin-top: -23.5rem;
+      }
+    }
+  }
+}
