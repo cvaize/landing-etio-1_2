@@ -1,12 +1,35 @@
-
+.navbar--bg-dark{
+  position: fixed;
+  z-index: 999999999;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
 .navbar {
   min-height: #{120/$html-font-size}rem;
+  -webkit-box-shadow: 0px 10px 25px 0px rgba(33,33,33,0.2);
+  -moz-box-shadow: 0px 10px 25px 0px rgba(33,33,33,0.2);
+  box-shadow: 0px 10px 25px 0px rgba(33,33,33,0.2);
   &-brand {
     img {
-      height: #{50/$html-font-size}rem;
+      height: 100px;
+      min-width: 100px;
+      @include media-breakpoint-down(lg){
+        height: 50px;
+        min-width: 50px;
+      }
     }
     margin-left: 3rem;
-    margin-right: #{70/$html-font-size}rem;
+    margin-right: 1.4rem;
+    //margin-right: #{70/$html-font-size}rem;
+  }
+  &.show{
+    &~.navbar--bg-dark{
+      display: block;
+    }
   }
 }
 
@@ -60,7 +83,10 @@
       align-items: center;
       justify-content: center;
       &--hold {
-        min-width: #{170/$html-font-size}rem;
+        .nav-link{
+          margin-left: 3rem;
+          margin-right: 3rem;
+        }
       }
       //width: 100%;
       &.active {

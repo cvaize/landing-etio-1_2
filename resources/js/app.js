@@ -29,16 +29,19 @@ $('.js-selectric').selectric({
 (function ($) {
     let navbarHamburger = $(".js-navbar__hamburger");
     let navbarCollapse = $(".js-navbar-collapse");
-    let navbarBackground = $(".js-navbar-background");
+    let navbarBackground = $(".js-navbar--bg-dark");
+    let navbar = $(".js-navbar");
 
     navbarHamburger.on("click", function (event) {
         event.preventDefault();
         navbarHamburger.toggleClass("is-active");
         navbarCollapse.toggleClass("show");
+        navbar.toggleClass("show");
     });
     navbarBackground.on("click", function (event) {
         event.preventDefault();
         navbarHamburger.toggleClass("is-active");
         navbarCollapse.toggleClass("show");
+        navbar.toggleClass("show");
     });
 })($);

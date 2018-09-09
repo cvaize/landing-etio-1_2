@@ -1,0 +1,8 @@
+.map--17 {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  @include media-breakpoint-down(md) {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+}

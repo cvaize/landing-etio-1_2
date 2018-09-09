@@ -1,7 +1,8 @@
-<nav class="navbar navbar-expand-xl navbar-light bg-white">
+<nav class="navbar navbar-expand-xl js-navbar navbar-light bg-white">
     <div class="container-max-width w-100 d-flex align-items-center h-100">
         <a class="navbar-brand" href="/">
-            <img class="img-fluid" src="/img/et-black.png" alt="logo">
+            <img class="img-fluid d-none d-xl-inline-block" src="/img/et-black.png" alt="logo">
+            <img class="img-fluid d-inline-block d-xl-none" src="/img/logotype.png" alt="logo">
         </a>
         <div class="hamburger hamburger--arrow js-navbar__hamburger ml-auto d-xl-none">
             <div class="hamburger-box">
@@ -10,22 +11,22 @@
         </div>
         <div class="collapse navbar-collapse js-navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item px-xl-3">
+                <li class="nav-item px-xl-2 mx-auto">
                     <a class="nav-link" href="#">ET Protocol</a>
                 </li>
-                <li class="nav-item px-xl-3">
-                    <a class="nav-link" href="#">ET App</a>
+                <li class="nav-item px-xl-2 mx-auto">
+                    <a class="nav-link" href="#">ET dApp</a>
                 </li>
-                <li class="nav-item px-xl-3">
+                <li class="nav-item px-xl-2 mx-auto">
                     <a class="nav-link" href="#">Documentation</a>
                 </li>
-                <li class="nav-item px-xl-3">
+                <li class="nav-item px-xl-2 mx-auto">
                     <a class="nav-link" href="#">About us</a>
                 </li>
-                <li class="nav-item px-xl-3">
+                <li class="nav-item px-xl-2 mx-auto">
                     <a class="nav-link" href="#">Technical</a>
                 </li>
-                <li class="nav-item px-xl-3">
+                <li class="nav-item px-xl-2 mx-auto">
                     <a class="nav-link" href="#">Paper</a>
                 </li>
                 <li class="nav-item nav-item--local pl-xl-3 pr-xl-2 ml-xl-5">
@@ -44,3 +45,4 @@
         </div>
     </div>
 </nav>
+<div class="navbar--bg-dark js-navbar--bg-dark"></div>

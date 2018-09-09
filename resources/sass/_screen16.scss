@@ -1,0 +1,20 @@
+.screen--16 {
+  //padding-top: 8rem;
+  //padding-bottom: 5rem;
+  //@include media-breakpoint-down(md) {
+  //  padding-top: 4rem;
+  //  padding-bottom: 2rem;
+  //}
+  &__bg--1{
+    @include lineGrad($blue, $white, 62.11%); //col-8 пол левую границу отступа
+    @include media-breakpoint-down(sm) {
+      background: $blue;
+    }
+  }
+  &__bg--2{
+    @include lineGrad($blue, $cyan, 62.11%); //col-8 пол левую границу отступа
+    @include media-breakpoint-down(sm) {
+      background: $blue;
+    }
+  }
+}

@@ -30,9 +30,14 @@
         </div>
         @include("screens.9_screen")
         @include("screens.10_screen")
+        @include("screens.11_screen")
+        @include("screens.12_screen")
+        @include("screens.13_screen")
+        @include("screens.14_screen")
+        @include("screens.15_screen")
     @endif
-    @include("screens.11_screen")
-    @include("screens.12_screen")
+    @include("screens.16_screen")
+    @include("screens.17_map")
     <div style="height: 50rem; background: gray;"></div>
 
     @include("layouts.footer")

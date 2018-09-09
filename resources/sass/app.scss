@@ -148,7 +148,11 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 @mixin lineGradVerticalThreeColor($colorStart, $colorMiddle, $colorEnd, $borderStart, $borderEnd){
   background: linear-gradient(to bottom, $colorStart 0%,$colorStart $borderStart,$colorStart $borderStart,$colorMiddle $borderStart,$colorMiddle $borderEnd,$colorEnd $borderEnd,$colorEnd 100%);
 }
-
+.link-hover--success{
+  &:hover{
+    color: $green!important;
+  }
+}
 @import 'navbar';
 @import 'footer';
 @import 'buttons';
@@ -171,6 +175,11 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 @import 'screen10';
 @import 'screen11';
 @import 'screen12';
+@import 'screen13';
+@import 'screen14';
+@import 'screen15';
+@import 'screen16';
+@import 'map17';
 
 
 

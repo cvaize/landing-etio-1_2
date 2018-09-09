@@ -13727,17 +13727,20 @@ $('.js-selectric').selectric({
 (function ($) {
     var navbarHamburger = $(".js-navbar__hamburger");
     var navbarCollapse = $(".js-navbar-collapse");
-    var navbarBackground = $(".js-navbar-background");
+    var navbarBackground = $(".js-navbar--bg-dark");
+    var navbar = $(".js-navbar");
 
     navbarHamburger.on("click", function (event) {
         event.preventDefault();
         navbarHamburger.toggleClass("is-active");
         navbarCollapse.toggleClass("show");
+        navbar.toggleClass("show");
     });
     navbarBackground.on("click", function (event) {
         event.preventDefault();
         navbarHamburger.toggleClass("is-active");
         navbarCollapse.toggleClass("show");
+        navbar.toggleClass("show");
     });
 })($);
 
