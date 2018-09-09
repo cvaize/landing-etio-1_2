@@ -40,6 +40,9 @@ html{
     }
   }
 }
+.fz-0_8333{
+  font-size: .833333rem;
+}
 $window-list: sm md lg xl;
 @each $current-window in $window-list {
   @include media-breakpoint-up($current-window) {
@@ -63,6 +66,11 @@ $window-list: sm md lg xl;
         }
       }
     }
+  }
+}
+@include media-breakpoint-up(lg) {
+  .w-lg-auto{
+    width: auto!important;
   }
 }
 .display-3{
@@ -100,6 +108,11 @@ $window-list: sm md lg xl;
 }
 .text-black{
   color: #000000;
+}
+a.text-black{
+  &:hover{
+    color: #000000;
+  }
 }
 h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
   line-height: $line-height-base;
@@ -152,6 +165,9 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
   &:hover{
     color: $green!important;
   }
+}
+.font-weight-black{
+  font-weight: 900!important;
 }
 @import 'navbar';
 @import 'footer';

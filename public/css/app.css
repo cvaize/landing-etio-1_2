@@ -11054,6 +11054,10 @@ html {
   font-size: 6.9rem !important;
 }
 
+.fz-0_8333 {
+  font-size: .833333rem;
+}
+
 @media (min-width: 576px) {
   .lh-sm-1 {
     line-height: 1 !important;
@@ -12342,6 +12346,12 @@ html {
   }
 }
 
+@media (min-width: 992px) {
+  .w-lg-auto {
+    width: auto !important;
+  }
+}
+
 .display-3 {
   font-size: 4.333333rem;
 }
@@ -12379,6 +12389,10 @@ html {
 }
 
 .text-black {
+  color: #000000;
+}
+
+a.text-black:hover {
   color: #000000;
 }
 
@@ -12443,6 +12457,10 @@ p,
 
 .link-hover--success:hover {
   color: #00b850 !important;
+}
+
+.font-weight-black {
+  font-weight: 900 !important;
 }
 
 .navbar--bg-dark {
@@ -12657,35 +12675,8 @@ p,
   }
 }
 
-.footer__link--back-to-top {
-  background: #00b850;
-}
-
-.footer__link--back-to-top .nav-link {
-  color: #fff !important;
-}
-
-.footer__link--back-to-top i {
-  font-size: 1.4rem;
-}
-
-.footer .navbar-nav {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-.footer .navbar-brand {
-  margin-left: 4rem;
-  width: 7rem;
-}
-
-@media (max-width: 1200px) {
-  .footer .navbar-brand {
-    width: 100%;
-    margin-right: 0;
-  }
+.footer__form-control {
+  height: 60px !important;
 }
 
 .btn {

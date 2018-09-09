@@ -15,7 +15,7 @@
     <body >
     @include("layouts.navbar")
 
-    @if(false)
+    @if(true)
         @include("screens.1_main")
         @include("screens.2_1_screen")
         @include("screens.3_1_screen")
@@ -35,8 +35,8 @@
         @include("screens.13_screen")
         @include("screens.14_screen")
         @include("screens.15_screen")
+        @include("screens.16_screen")
     @endif
-    @include("screens.16_screen")
     @include("screens.17_map")
     <div style="height: 50rem; background: gray;"></div>
 
