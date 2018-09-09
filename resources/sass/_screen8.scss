@@ -1,7 +1,7 @@
 .screen--8{
   &__bg{
     background: linear-gradient(to right, $white 0%,$white 60%,$white 60%,$green-100 60%,$green-100 100%);
-    @media (max-width: 767.98px) {
+    @include media-breakpoint-down(md) {
       background: $white;
     }
     padding-bottom: 5rem;

@@ -15,7 +15,7 @@
     <body >
     @include("layouts.navbar")
 
-    @if(true)
+    @if(false)
         @include("screens.1_main")
         @include("screens.2_1_screen")
         @include("screens.3_1_screen")
@@ -23,20 +23,17 @@
         @include("screens.4_1_screen")
         @include("screens.5_1_screen")
         @include("screens.6_screen")
+        @include("screens.7_1_screen")
+        <div class="screen--8__pc">
+            @include("screens.7_screen")
+            @include("screens.8_screen")
+        </div>
+        @include("screens.9_screen")
+        @include("screens.10_screen")
     @endif
-    @include("screens.7_1_screen")
-    <div class="screen--8__pc">
-        @include("screens.7_screen")
-        @include("screens.8_screen")
-    </div>
+    @include("screens.11_screen")
+    @include("screens.12_screen")
     <div style="height: 50rem; background: gray;"></div>
-    {{--@include("screens.2_screen")--}}
-    {{--@include("screens.3_screen")--}}
-    {{--@include("screens.4_screen")--}}
-    {{--@include("screens.5_screen")--}}
-    {{--@include("screens.6_screen")--}}
-    @include("screens.9_screen")
-    @include("screens.10_screen")
 
     @include("layouts.footer")
     <script src="/js/app.js"></script>

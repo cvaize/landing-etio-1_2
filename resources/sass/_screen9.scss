@@ -1,44 +1,65 @@
 .screen--9{
-  &__img{
-    position: relative;
-    &:before{
-      content: '';
-      position: absolute;
-      bottom: 56%;
-      left: 14%;
-      width: 15rem;
-      height: 15rem;
-      background-image: url(/img/screen9/q.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      z-index: 1;
-    }
-  }
-  &__btn-absolute{
-    position: relative;
-    top: -45px;
-    z-index: 1;
-    @media (min-width: 500px) {
-      width: 250px;
-    }
+  &__box{
+    box-shadow: 0px 6px 46px 0px rgba(33, 33, 33, 0.07);
   }
   &__bg{
-    background: linear-gradient(to right, $blue 0%,$blue 60%,$blue 60%,$cyan 60%,$cyan 100%);
-    @media (max-width: 1199.8px) {
-      background: $blue;
-    }
+    @include lineGradVerticalThreeColor($primary, $white, $cyan, 45%, 80%);
+  }
+  &__circle{
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: 1px solid #eef0f4;
+    position: absolute;
+    top: -33.5px;
+    left: 3rem;
+    z-index: 1;
+    background-color: #fff;
   }
   &__comment{
-    &__name{
-      @media (min-width: 500px) {
-        font-size: 1.6rem!important;
+    position: relative;
+    background: $white;
+    box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.1);
+    &__wrap{
+      margin-top: -18.5rem;
+      padding-top: 7rem;
+      @media (max-width: 400px) {
+        margin-top: -23.5rem;
       }
     }
-    &__text{
-      @media (max-width: 500px) {
-        font-size: 1.2rem!important;
+    .block-line{
+      display: inline-block;
+      margin-bottom: .4rem;
+      margin-left: 2rem;
+      width: 12rem;
+      @include media-breakpoint-down(xs) {
+        display: block;
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
       }
+    }
+    &:before, &:after{
+      content: '';
+      position: absolute;
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+      background-size: contain;
+      width: 100px;
+      height: 70px;
+    }
+    &:before{
+      background-image: url(/img/screen2/q.png);
+      top: 0;
+      left: -120px;
+    }
+    &:after{
+      background-image: url(/img/screen2/q2.png);
+      bottom: 0;
+      right: -120px;
     }
   }
 }

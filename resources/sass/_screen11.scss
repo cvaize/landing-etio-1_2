@@ -1,0 +1,11 @@
+.screen--11{
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  @include media-breakpoint-down(md) {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  &__bg{
+    @include lineGradVerticalThreeColor($white, $cyan, $white, 45%, 60%);
+  }
+}

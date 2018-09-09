@@ -19,3 +19,13 @@
     }
   }
 }
+.btn-outline-success{
+  background: $white;
+  color: $green;
+  border-color: $green;
+  &:hover, &:focus{
+    background: $green;
+    color: $white;
+    border-color: $white;
+  }
+}

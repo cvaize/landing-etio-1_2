@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 .text-muted{
   color: $gray-500--m!important;
 }
+.text-muted-600{
+  color: $gray-600--m!important;
+}
 .font-weight-semibold{
   font-weight: 600!important;
 }
@@ -142,6 +145,9 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 @mixin lineGradVertical($colorStart, $colorEnd, $border){
   background: linear-gradient(to bottom, $colorStart 0%,$colorStart $border,$colorStart $border,$colorEnd $border,$colorEnd 100%);
 }
+@mixin lineGradVerticalThreeColor($colorStart, $colorMiddle, $colorEnd, $borderStart, $borderEnd){
+  background: linear-gradient(to bottom, $colorStart 0%,$colorStart $borderStart,$colorStart $borderStart,$colorMiddle $borderStart,$colorMiddle $borderEnd,$colorEnd $borderEnd,$colorEnd 100%);
+}
 
 @import 'navbar';
 @import 'footer';
@@ -163,6 +169,8 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 @import 'screen8';
 @import 'screen9';
 @import 'screen10';
+@import 'screen11';
+@import 'screen12';
 
 
 

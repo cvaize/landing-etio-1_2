@@ -1,51 +1,13 @@
 .screen--10{
-  padding-top: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 4rem;
+  }
   &__bg{
-    background: linear-gradient(to right, $green 0%,$green 60%,$green 60%,$cyan 60%,$cyan 100%);
-    @media (max-width: 1199.8px) {
-      background: $green;
-    }
-  }
-  &__bg--2{
-    background: linear-gradient(to right, $white 0%,$white 60%,$white 60%,$cyan 60%,$cyan 100%);
-    @media (max-width: 1199.8px) {
-      background: $white;
-    }
-  }
-  &__content{
-    padding-left: 14%;
-    @media (max-width: 767.98px) {
-      padding-left: 0;
-    }
-  }
-  &__display-4{
-    font-size: 4rem;
-    @media (max-width: 767.98px) {
-      font-size: 2rem!important;
-      br{
-        display: none;
-      }
-    }
-    .block-line{
-      margin-bottom: 1rem;
-      @media (max-width: 767.98px) {
-        display: block;
-      }
-    }
-  }
-  &__desc{
-    @media (max-width: 767.98px) {
-      font-size: 1.5rem!important;
-      br{
-        display: none;
-      }
-    }
-  }
-  &__col-xl-7{
-    @media (min-width: 1200px){
-      -ms-flex: 0 0 61.05%;
-      flex: 0 0 61.05%;
-      max-width: 61.05%;
+    @include lineGrad($green, $cyan, 53%);
+    @include media-breakpoint-down(lg) {
+      @include lineGradVertical($green, $cyan, 40%);
     }
   }
   &__box{
@@ -59,24 +21,6 @@
     }
   }
   &__form{
-    @media (max-width: 1199.8px) {
-      color: $white!important;
-      .form-check-label{
-        color: $white!important;
-      }
-    }
-    @media (min-width: 1400px) {
-      margin-left: 3rem;
-      padding-left: 3rem;
-    }
-    @media (min-width: 2000px) {
-      margin-left: 6rem;
-    }
-    &__title{
-      @media (max-width: 1199.8px) {
-        color: $white!important;
-      }
-    }
     &__box{
       @media (min-width: 992px) and (max-width: 1199.8px) {
         display: flex;
@@ -86,9 +30,6 @@
     }
     &__link{
       color: $green!important;
-      @media (max-width: 1199.8px) {
-        color: $blue!important;
-      }
     }
   }
 }
