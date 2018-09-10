@@ -16,7 +16,7 @@
                     <a href="#" class="btn btn-success btn--main">
                         contact us
                     </a>
-                    <a href="#" class="btn btn-info btn--main">
+                    <a target="_blank" href="https://eternaltrusts.io/token" class="btn btn-info btn--main">
                         et token
                     </a>
                 </div>

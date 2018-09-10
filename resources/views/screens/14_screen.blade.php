@@ -13,7 +13,7 @@
             <div class="col-12 col-md d-flex d-md-block align-items-center justify-content-center mb-5">
                 <div class="screen--14__box">
                     <div class="screen--14__wrap-icon">
-                        <a href="#">
+                        <a target="_blank" href="https://www.linkedin.com/in/vidanage-charitha-9b09b0163/" class="link-un">
                             <div class="screen--14__icon rounded-circle">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
@@ -32,7 +32,7 @@
             <div class="col-12 col-md d-flex d-md-block align-items-center justify-content-center mb-5">
                 <div class="screen--14__box">
                     <div class="screen--14__wrap-icon">
-                        <a href="#">
+                        <a target="_blank" href="https://www.linkedin.com/in/jason-clark-218616156" class="link-un">
                             <div class="screen--14__icon rounded-circle">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
@@ -51,7 +51,7 @@
             <div class="col-12 col-md d-flex d-md-block align-items-center justify-content-center mb-5">
                 <div class="screen--14__box">
                     <div class="screen--14__wrap-icon">
-                        <a href="#">
+                        <a target="_blank" href="https://www.linkedin.com/in/elvis-tursunovic-243515169/" class="link-un">
                             <div class="screen--14__icon rounded-circle">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>

@@ -13,7 +13,7 @@
                         blockchain protocols with low transaction fees, <br>
                         and Hyperledger by IBM
                     </p>
-                    <a href="#" class="btn btn-outline-success ">
+                    <a target="_blank" href="https://github.com/eternaltrusts/architecture" class="btn btn-outline-success ">
                         read tech paper
                     </a>
                 </div>

@@ -20,7 +20,7 @@
                     <p class="font-weight-bold text-success mb-5 fz-1_5">
                         This is what the future of fiduciaries looks like!
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a target="_blank" href="http://beta.eternaltrusts.io/" class="btn btn-primary">
                         Coming up soon!
                     </a>
                 </div>
