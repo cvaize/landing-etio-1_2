@@ -10,9 +10,9 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900" rel="stylesheet">
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/app.css?id=1233">
     </head>
-    <body>
+    <body >
     @include("layouts.navbar")
     @include("screens.1_main")
     @include("screens.2_1_screen")
@@ -36,6 +36,6 @@
     @include("screens.16_screen")
     @include("screens.17_map")
     @include("layouts.footer")
-    <script src="/js/app.js"></script>
+    <script src="/js/app.js?id=1233"></script>
     </body>
 </html>

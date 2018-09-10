@@ -24,7 +24,7 @@
             </div>
             <div class="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
                 <div class="embed-responsive embed-responsive-1by1">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bs1kxWsECDU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/noUFiJqflcA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

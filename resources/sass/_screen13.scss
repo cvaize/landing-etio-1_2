@@ -25,6 +25,11 @@
   }
   &__img{
     height: 82px;
+    width: 82px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
   &__icon{
     position: absolute;

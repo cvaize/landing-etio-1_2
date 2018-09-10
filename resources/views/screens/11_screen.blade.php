@@ -41,7 +41,7 @@
                         Visited on
                     </p>
                     <p class="text-blue font-weight-bold">
-                        March 17 - March 19
+                        May 16 - May 17
                     </p>
                 </div>
                 <p class="lh-1_3 fz-2 mb-3">
@@ -49,8 +49,8 @@
                     Monaco
                 </p>
                 <p class="text-muted lh-1_8 fz-1_1">
-                    ET participated in Monaco International Blockchain conference. Find out about the valuable feedback from large investors that we had on our
-                    <a class="text-blue" href="#">Medium blog.</a>
+                    ET participated in Monaco International Blockchain conference. Find out about the valuable feedback from large investors that we had on
+                    <a class="text-blue" href="https://medium.com/@EternalTrusts/the-first-blockchain-forum-in-monaco-started-today-37f1a8baac89">our Medium blog.</a>
                 </p>
             </div>
             <div class="col-lg-4 mb-5">
@@ -62,7 +62,7 @@
                         Visited on
                     </p>
                     <p class="text-blue font-weight-bold">
-                        March 17 - March 19
+                        May 23 - May 30
                     </p>
                 </div>
                 <p class="lh-1_3 fz-2 mb-3">
@@ -70,8 +70,8 @@
                     Puerto Rico
                 </p>
                 <p class="text-muted lh-1_8 fz-1_1">
-                    Our team visited 4 IT capitals of China: Shanghai, Hangzhou, Shenzhen, Chengdu, to meet with potential clients. Find out how the Chinese audience met the project on our
-                    <a class="text-blue" href="#">Medium blog.</a>
+                    Our team visited 4 IT capitals of China: Shanghai, Hangzhou, Shenzhen, Chengdu, to meet with potential clients. Find out how the Chinese audience met the project on
+                    <a class="text-blue" href="https://medium.com/@EternalTrusts/the-first-blockchain-forum-in-monaco-started-today-37f1a8baac89">our Medium blog.</a>
                 </p>
             </div>
         </div>
