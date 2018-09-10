@@ -20,16 +20,16 @@
                         Singapore
                     </p>
                     <div class="d-flex align-items-center">
-                        <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                        <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://www.facebook.com/EternalTrusts">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                        <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://instagram.com/eternaltrusts">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                        <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://www.linkedin.com/company/eternal-trusts/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                        <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://twitter.com/eternal_trusts">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </div>

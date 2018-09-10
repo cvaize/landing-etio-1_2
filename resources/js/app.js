@@ -44,4 +44,10 @@ $('.js-selectric').selectric({
         navbarCollapse.toggleClass("show");
         navbar.toggleClass("show");
     });
+
+    $("a[href^='#']").click(function () {
+        let elementClick = $(this).attr("href");
+        let destination = $(elementClick).offset().top;
+        $("body,html").animate({scrollTop: destination }, 800);
+    });
 })($);

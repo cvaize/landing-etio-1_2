@@ -169,6 +169,20 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
 .font-weight-black{
   font-weight: 900!important;
 }
+.img-cover{
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.link-un{
+  color: inherit;
+  text-decoration: inherit;
+  &:hover{
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
 @import 'navbar';
 @import 'footer';
 @import 'buttons';

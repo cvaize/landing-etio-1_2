@@ -1,4 +1,4 @@
-<div class="screen--9__bg" style="overflow: hidden">
+<div class="screen--9__bg" id="screen--9" style="overflow: hidden">
     <div class="container screen--9 py-5">
         <div class="row">
             <div class="col-lg-7 mb-5">
@@ -29,7 +29,7 @@
                                 A short explanation of the purposes, the technical stack and the tokenomics
                             </p>
                         </div>
-                        <a href="#" class="btn btn-success btn-block mt-auto">
+                        <a target="_blank" href="https://github.com/eternaltrusts/architecture" class="btn btn-success btn-block mt-auto">
                             read tech paper
                         </a>
                     </div>
@@ -47,8 +47,8 @@
                                 A full, detailed description of the DAO applied to Life Extension Purpose
                             </p>
                         </div>
-                        <a href="#" class="btn btn-success btn-block mt-auto">
-                            read tech paper
+                        <a target="_blank" href="https://eternaltrusts.com/docs/wpen.pdf" class="btn btn-success btn-block mt-auto">
+                            Open the WP
                         </a>
                     </div>
                 </div>
@@ -65,8 +65,8 @@
                                 A presentation for pitch sessions
                             </p>
                         </div>
-                        <a href="#" class="btn btn-success btn-block mt-auto">
-                            read tech paper
+                        <a target="_blank" href="https://eternaltrusts.com/docs/pden.pdf" class="btn btn-success btn-block mt-auto">
+                            Open the Pitch Deck
                         </a>
                     </div>
                 </div>

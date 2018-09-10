@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-sm-4 col-lg-2 d-flex d-sm-block flex-column align-items-center justify-content-center">
                 <div class="mb-4">
-                    <a href="#">
+                    <a href="/">
                         <img style="height: 100px" src="/img/et-black.png" alt="et-black">
                     </a>
                 </div>
@@ -14,27 +14,27 @@
             <div class="col-6 col-sm-4 col-lg-2 d-flex align-items-start justify-content-center">
                 <ul class="list-unstyled small font-weight-black text-uppercase my-5">
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a href="#screen--2_1" class="text-black">
                             ET Protocol
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a href="#screen--8" class="text-black">
                             ET dApp
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a href="#screen--9" class="text-black">
                             Documentation
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a href="#screen--13" class="text-black">
                             About us
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a target="_blank" href="https://github.com/eternaltrusts/architecture" class="text-black">
                             Technical Paper
                         </a>
                     </li>
@@ -43,22 +43,22 @@
             <div class="col-6 col-sm-4 col-lg-2 d-flex align-items-start justify-content-center">
                 <ul class="list-unstyled small font-weight-black text-uppercase my-5">
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a target="_blank" href="https://eternaltrusts.com/docs/mw/terms.pdf" class="text-black">
                             Terms of Use
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a target="_blank" href="https://eternaltrusts.com/docs/mw/tokensale_terms.pdf" class="text-black">
                             Token Sale Agreement
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a target="_blank" href="https://eternaltrusts.com/docs/mw/privacy.pdf" class="text-black">
                             Privacy Policy
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="text-black">
+                        <a target="_blank" href="https://eternaltrusts.com/docs/mw/kyc.pdf" class="text-black">
                             KYC AML Policy
                         </a>
                     </li>
@@ -66,19 +66,19 @@
             </div>
             <div class="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-end flex-column">
                 <div class="d-flex align-items-center mb-5">
-                    <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                    <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://t.me/eternaltrusts">
                         <i class="fab fa-telegram"></i>
                     </a>
-                    <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                    <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://www.facebook.com/EternalTrusts">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                    <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://instagram.com/eternaltrusts">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                    <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://www.linkedin.com/company/eternal-trusts/">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a class="d-block text-black link-hover--success fz-1_3 mr-5" href="#">
+                    <a target="_blank" class="d-block text-black link-hover--success fz-1_3 mr-5" href="https://twitter.com/eternal_trusts">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>

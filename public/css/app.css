@@ -12463,6 +12463,22 @@ p,
   font-weight: 900 !important;
 }
 
+.img-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.link-un {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-un:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .navbar--bg-dark {
   position: fixed;
   z-index: 999999999;
@@ -13873,6 +13889,10 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
 
 .screen--13__img {
   height: 82px;
+  width: 82px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .screen--13__icon {

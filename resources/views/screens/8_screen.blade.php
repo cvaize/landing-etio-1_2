@@ -1,4 +1,4 @@
-<div class="screen--8__bg">
+<div class="screen--8__bg" id="screen--8">
     <div class="container screen--8 py-5">
         <div class="row">
             <div class="col-xl-7 py-lg-5">
