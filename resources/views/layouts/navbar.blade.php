@@ -36,7 +36,7 @@
                     <a class="nav-link" href="https://eternaltrusts.io/token">et token</a>
                 </li>
                 <li class="nav-item nav-item--hold">
-                    <a class="nav-link" href="#">contact us</a>
+                    <a href="#" class="nav-link outline-none" data-toggle="modal" data-target="#modal--contactUs">contact us</a>
                 </li>
             </ul>
         </div>

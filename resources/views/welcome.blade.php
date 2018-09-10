@@ -36,6 +36,7 @@
     @include("screens.16_screen")
     @include("screens.17_map")
     @include("layouts.footer")
+    @include("modals")
     <script src="/js/app.js?id=1233"></script>
     </body>
 </html>

@@ -183,6 +183,24 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p{
     text-decoration: inherit;
   }
 }
+.modal-dialog {
+  margin-top: 10rem;
+}
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 500px;
+    margin: 10rem auto;
+  }
+}
+.modal{
+  z-index: 25000;
+}
+.modal-backdrop{
+  z-index: 24000;
+}
+.outline-none{
+  outline: none!important;
+}
 @import 'navbar';
 @import 'footer';
 @import 'buttons';

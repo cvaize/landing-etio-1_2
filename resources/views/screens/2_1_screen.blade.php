@@ -18,9 +18,9 @@
                     Integration is done easily by ordering a ready-made, white labeled
                     decentralized app (dApp) from Eternal Trusts.
                 </p>
-                <a href="#" class="btn btn-success">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal--contactUs">
                     Get Started
-                </a>
+                </button>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
                 <div class="embed-responsive embed-responsive-16by9">

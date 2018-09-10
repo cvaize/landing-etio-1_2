@@ -1,4 +1,10 @@
 
+.form-control-label{
+  font-size: 1.6rem;
+  @include media-breakpoint-down(sm){
+    font-size: 1.2rem;
+  }
+}
 .form-control{
   border: 0;
   padding: 0 2rem;
@@ -12,6 +18,10 @@
   &:-ms-input-placeholder { color: $black; }
   &::-ms-input-placeholder { color: $black; }
   &::placeholder { color: $black; }
+}
+textarea.form-control{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .selectric-wrapper{
   width: 100%;

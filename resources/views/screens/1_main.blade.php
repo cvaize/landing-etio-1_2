@@ -36,9 +36,9 @@
                     for asset administration
                 </p>
                 <div class="d-flex py-5 justify-content-center justify-content-sm-start">
-                    <a href="#" class="btn btn-success btn--main">
+                    <button type="button" class="btn btn-success btn--main" data-toggle="modal" data-target="#modal--contactUs">
                         contact us
-                    </a>
+                    </button>
                     <a target="_blank" href="https://eternaltrusts.io/token" class="btn btn-info btn--main">
                         et token
                     </a>
