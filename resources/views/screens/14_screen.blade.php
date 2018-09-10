@@ -20,11 +20,11 @@
                         </a>
                     </div>
                     <div class="position-relative">
-                        <p class="lh-1_6 fz-2 font-weight-bold mb-0 text-nowrap">
+                        <p class="lh-1_6 fz-1_3 font-weight-bold mb-0 text-nowrap">
                             South Asia
                         </p>
-                        <p class="lh-1_6 fz-1_3 font-weight-semibold mb-0 text-nowrap">
-                            Vidanage Charitha
+                        <p class="lh-1_3 fz-1_6 font-weight-semibold mb-0 text-nowrap">
+                            Vidanage <br>Charitha
                         </p>
                     </div>
                 </div>
@@ -39,11 +39,11 @@
                         </a>
                     </div>
                     <div class="position-relative">
-                        <p class="lh-1_6 fz-2 font-weight-bold mb-0 text-nowrap">
+                        <p class="lh-1_6 fz-1_3 font-weight-bold mb-0 text-nowrap">
                             North America
                         </p>
-                        <p class="lh-1_6 fz-1_3 font-weight-semibold mb-0 text-nowrap">
-                            Jason Clark
+                        <p class="lh-1_3 fz-1_6 font-weight-semibold mb-0 text-nowrap">
+                            Jason <br>Clark
                         </p>
                     </div>
                 </div>
@@ -58,11 +58,11 @@
                         </a>
                     </div>
                     <div class="position-relative">
-                        <p class="lh-1_6 fz-2 font-weight-bold mb-0 text-nowrap">
+                        <p class="lh-1_6 fz-1_3 font-weight-bold mb-0 text-nowrap">
                             Europe
                         </p>
-                        <p class="lh-1_6 fz-1_3 font-weight-semibold mb-0 text-nowrap">
-                            Elvis Tursunovic
+                        <p class="lh-1_3 fz-1_6 font-weight-semibold mb-0 text-nowrap">
+                            Elvis <br>Tursunovic
                         </p>
                     </div>
                 </div>

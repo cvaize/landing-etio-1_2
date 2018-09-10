@@ -1,6 +1,15 @@
 .screen--7{
   &__bg{
-    background: linear-gradient(to right, $green 0%,$green 60%,$green 60%,$green-100 60%,$green-100 100%);
+    @include lineGrad($green, $green-100, 60%);
+    @media (min-width: 1680px) {
+      @include lineGrad($green, $green-100, 57%);
+    }
+    @media (min-width: 2240px) {
+      @include lineGrad($green, $green-100, 56%);
+    }
+    @media (min-width: 2800px) {
+      @include lineGrad($green, $green-100, 55%);
+    }
     @media (max-width: 1199.8px) {
       background: $green;
     }
@@ -46,9 +55,9 @@
       background: transparent!important;
     }
     @media (min-width: 2200px) {
-      background: white!important;
-      padding: 3rem!important;
-      margin: 3rem 0!important;
+      //background: white!important;
+      //padding: 3rem!important;
+      //margin: 3rem 0!important;
     }
   }
 }

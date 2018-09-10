@@ -65,7 +65,7 @@
                                 A presentation for pitch sessions
                             </p>
                         </div>
-                        <a target="_blank" href="https://eternaltrusts.com/docs/pden.pdf" class="btn btn-success btn-block mt-auto">
+                        <a target="_blank" href="https://eternaltrusts.com/docs/pren.pdf" class="btn btn-success btn-block mt-auto">
                             Open the Pitch Deck
                         </a>
                     </div>

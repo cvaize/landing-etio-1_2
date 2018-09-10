@@ -12895,6 +12895,70 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
   opacity: 1;
 }
 
+.wiget--social-links {
+  position: fixed;
+  left: -50px;
+  top: 45%;
+  background: #e5f2ff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 9999;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.wiget--social-links.show {
+  left: 0;
+}
+
+.wiget--social-links__content {
+  font-size: 16px;
+  color: #000;
+  padding: .5rem;
+}
+
+.wiget--social-links__content:hover {
+  color: #00b850;
+}
+
+.wiget--social-links__content a {
+  margin: 18px 0;
+  color: #000;
+}
+
+.wiget--social-links__content a:first-child {
+  margin-top: 0;
+}
+
+.wiget--social-links__content a:last-child {
+  margin-bottom: 0;
+}
+
+.wiget--social-links__content a:hover {
+  color: #00b850;
+}
+
+.wiget--btn-up {
+  position: fixed;
+  font-size: 26px;
+  color: #fff;
+  background: #0163D7;
+  padding: 1rem;
+  right: -100px;
+  bottom: 10%;
+  z-index: 999;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.wiget--btn-up.show {
+  right: 0;
+}
+
 .screen--1 {
   padding-top: 8rem;
   padding-bottom: 5rem;
@@ -13312,6 +13376,27 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
   background: linear-gradient(to right, #00b850 0%, #00b850 60%, #00b850 60%, #e4f4e9 60%, #e4f4e9 100%);
 }
 
+@media (min-width: 1680px) {
+  .screen--7__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#00b850), color-stop(57%, #00b850), color-stop(57%, #00b850), color-stop(57%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #00b850 0%, #00b850 57%, #00b850 57%, #e4f4e9 57%, #e4f4e9 100%);
+  }
+}
+
+@media (min-width: 2240px) {
+  .screen--7__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#00b850), color-stop(56%, #00b850), color-stop(56%, #00b850), color-stop(56%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #00b850 0%, #00b850 56%, #00b850 56%, #e4f4e9 56%, #e4f4e9 100%);
+  }
+}
+
+@media (min-width: 2800px) {
+  .screen--7__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#00b850), color-stop(55%, #00b850), color-stop(55%, #00b850), color-stop(55%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #00b850 0%, #00b850 55%, #00b850 55%, #e4f4e9 55%, #e4f4e9 100%);
+  }
+}
+
 @media (max-width: 1199.8px) {
   .screen--7__bg {
     background: #00b850;
@@ -13377,14 +13462,6 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
   }
 }
 
-@media (min-width: 2200px) {
-  .screen--7__box {
-    background: white !important;
-    padding: 3rem !important;
-    margin: 3rem 0 !important;
-  }
-}
-
 .screen--7_1 {
   padding-top: 8rem;
   padding-bottom: 3rem;
@@ -13431,6 +13508,27 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
   background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(60%, #fff), color-stop(60%, #fff), color-stop(60%, #e4f4e9), to(#e4f4e9));
   background: linear-gradient(to right, #fff 0%, #fff 60%, #fff 60%, #e4f4e9 60%, #e4f4e9 100%);
   padding-bottom: 5rem;
+}
+
+@media (min-width: 1680px) {
+  .screen--8__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(57%, #fff), color-stop(57%, #fff), color-stop(57%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #fff 0%, #fff 57%, #fff 57%, #e4f4e9 57%, #e4f4e9 100%);
+  }
+}
+
+@media (min-width: 2240px) {
+  .screen--8__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(56%, #fff), color-stop(56%, #fff), color-stop(56%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #fff 0%, #fff 56%, #fff 56%, #e4f4e9 56%, #e4f4e9 100%);
+  }
+}
+
+@media (min-width: 2800px) {
+  .screen--8__bg {
+    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(55%, #fff), color-stop(55%, #fff), color-stop(55%, #e4f4e9), to(#e4f4e9));
+    background: linear-gradient(to right, #fff 0%, #fff 55%, #fff 55%, #e4f4e9 55%, #e4f4e9 100%);
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -13624,6 +13722,13 @@ input[type="checkbox"].form-check-input:checked ~ label:after {
   .screen--10__bg {
     background: -webkit-gradient(linear, left top, left bottom, from(#00b850), color-stop(40%, #00b850), color-stop(40%, #00b850), color-stop(40%, #e5f2ff), to(#e5f2ff));
     background: linear-gradient(to bottom, #00b850 0%, #00b850 40%, #00b850 40%, #e5f2ff 40%, #e5f2ff 100%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .screen--10__bg {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00b850), color-stop(36%, #00b850), color-stop(36%, #00b850), color-stop(36%, #e5f2ff), to(#e5f2ff));
+    background: linear-gradient(to bottom, #00b850 0%, #00b850 36%, #00b850 36%, #e5f2ff 36%, #e5f2ff 100%);
   }
 }
 

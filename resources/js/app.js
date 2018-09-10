@@ -31,6 +31,8 @@ $('.js-selectric').selectric({
     let navbarCollapse = $(".js-navbar-collapse");
     let navbarBackground = $(".js-navbar--bg-dark");
     let navbar = $(".js-navbar");
+    let wigetBtnUp = $(".js-wiget--btn-up");
+    let wigetSocialLinks = $(".js-wiget--social-links");
 
     navbarHamburger.on("click", function (event) {
         event.preventDefault();
@@ -45,9 +47,31 @@ $('.js-selectric').selectric({
         navbar.toggleClass("show");
     });
 
+
     $("a[href^='#']").click(function () {
         let elementClick = $(this).attr("href");
         let destination = $(elementClick).offset().top;
         $("body,html").animate({scrollTop: destination }, 800);
     });
+
+
+    wigetBtnUp.click(function () {
+        $("body,html").animate({scrollTop: 0 }, 800);
+    });
+
+    $(window).on("scroll", function () {
+        let top = ($(window).scrollTop() || $("body").scrollTop());
+        let width = $(window).width();
+        if(top > 2000){
+            wigetBtnUp.addClass("show");
+        }else{
+            wigetBtnUp.removeClass("show");
+        }
+        if(width > 700){
+            wigetSocialLinks.addClass("show");
+        }else{
+            wigetSocialLinks.removeClass("show");
+        }
+    });
+
 })($);

@@ -4,8 +4,8 @@
             <div class="col-lg-5 mb-5">
 
                 <div class="screen--4_1__ml">
-                    <p class="mb-4 fz-3_5 lh-1_2">
-                        Eternal Trusts in Media
+                    <p class="mb-4 fz-3 lh-1_2">
+                        If you have any questions, contact us directly
                     </p>
                     <div class="block-line bg-primary mb-4"></div>
                     <p class="text-primary fz-1_5 font-weight-semibold my-5">

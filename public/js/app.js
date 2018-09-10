@@ -13729,6 +13729,8 @@ $('.js-selectric').selectric({
     var navbarCollapse = $(".js-navbar-collapse");
     var navbarBackground = $(".js-navbar--bg-dark");
     var navbar = $(".js-navbar");
+    var wigetBtnUp = $(".js-wiget--btn-up");
+    var wigetSocialLinks = $(".js-wiget--social-links");
 
     navbarHamburger.on("click", function (event) {
         event.preventDefault();
@@ -13747,6 +13749,25 @@ $('.js-selectric').selectric({
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top;
         $("body,html").animate({ scrollTop: destination }, 800);
+    });
+
+    wigetBtnUp.click(function () {
+        $("body,html").animate({ scrollTop: 0 }, 800);
+    });
+
+    $(window).on("scroll", function () {
+        var top = $(window).scrollTop() || $("body").scrollTop();
+        var width = $(window).width();
+        if (top > 2000) {
+            wigetBtnUp.addClass("show");
+        } else {
+            wigetBtnUp.removeClass("show");
+        }
+        if (width > 700) {
+            wigetSocialLinks.addClass("show");
+        } else {
+            wigetSocialLinks.removeClass("show");
+        }
     });
 })($);
 

@@ -82,12 +82,13 @@
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
-                {{ Form::open(["url"=>"/", "class"=>"d-block w-100 w-lg-auto"]) }}
+                {{ Form::open(["url"=>"https://eternaltrusts.com/api/wh", "class"=>"d-block w-100 w-lg-auto"]) }}
 
                 <div class="input-group">
                     @include("forms._input", [
-                    "name"=>123,
+                    "name"=>"landing-v1-subscribe",
                     "class"=>"footer__form-control",
+                    "required"=>true,
                     "formGroupClass"=>"mb-5 mb-sm-0 h-100 pr-4 flex-grow-1",
                     "placeholder"=>"Your E-mail"
                     ])

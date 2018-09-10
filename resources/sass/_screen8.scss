@@ -1,6 +1,15 @@
 .screen--8{
   &__bg{
-    background: linear-gradient(to right, $white 0%,$white 60%,$white 60%,$green-100 60%,$green-100 100%);
+    @include lineGrad($white, $green-100, 60%);
+    @media (min-width: 1680px) {
+      @include lineGrad($white, $green-100, 57%);
+    }
+    @media (min-width: 2240px) {
+      @include lineGrad($white, $green-100, 56%);
+    }
+    @media (min-width: 2800px) {
+      @include lineGrad($white, $green-100, 55%);
+    }
     @include media-breakpoint-down(md) {
       background: $white;
     }

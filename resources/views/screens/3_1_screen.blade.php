@@ -1,7 +1,7 @@
 <div class="screen--3_1__bg">
     <div class="container screen--3_1">
         <div class="row no-gutters">
-            <div class="col col-md-auto screen--3_1__wrap">
+            <div class="col-12 col-xl-auto screen--3_1__wrap">
                 <p class="fz-3_5 mb-4 lh-1">
                     Smart asset administration
                 </p>
@@ -32,7 +32,7 @@
                     "img" => "/img/screen2/shield.png",
                     "alt" => "shield",
                     "text" => "
-                                For Trustees
+                                For Trustees <br>
                                 & Fiduciaries
                                     "
                 ],
@@ -48,7 +48,7 @@
                     "img" => "/img/screen2/test-tube.png",
                     "alt" => "test-tube",
                     "text" => "
-                                For Biomaterial
+                                For Biomaterial <br>
                                 Storage Companies
                                     "
                 ],
@@ -70,7 +70,7 @@
                         </div>
                         <div class="block-line mb-3"></div>
                         <p class="fz-1_5 lh-1_4">
-                            {{$item["text"]??null}}
+                            {!! $item["text"]??null !!}
                         </p>
                     </div>
                 </div>

@@ -1,4 +1,27 @@
-<div class="screen--1__bg">
+<div class="wiget--social-links js-wiget--social-links">
+    <div class="wiget--social-links__content">
+        <a class="link-un d-block" href="https://www.facebook.com/EternalTrusts" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a class="link-un d-block" href="https://instagram.com/eternaltrusts" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="link-un d-block" href="https://www.linkedin.com/company/eternal-trusts/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="link-un d-block" href="https://twitter.com/eternal_trusts" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a class="link-un d-block" href="https://t.me/eternaltrusts" target="_blank">
+            <i class="fab fa-telegram"></i>
+        </a>
+    </div>
+</div>
+<div class="wiget--btn-up js-wiget--btn-up">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<div class="screen--1__bg" id="screen--1">
     <div class="container screen--1 bg-main">
         <div class="row">
             <div class="col-lg-8">

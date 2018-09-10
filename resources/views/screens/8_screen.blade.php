@@ -8,7 +8,7 @@
                     </p>
                     <div class="block-line bg-success mb-4"></div>
                     <p class="mb-5 text-success fz-2_1">
-                        Made by the creators protokol
+                        Made by the protocol creators
                     </p>
                     <p class="font-weight-normal fz-1_2 lh-2_1 mb-0">
                         We're developing the first decentralized application based on ET Protocol that

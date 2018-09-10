@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-xl-5 offset-xl-1 pt-5 mt-3">
-                {!! Form::open(['url' => 'foo/bar', "class"=>"screen--10__form d-block"]) !!}
+                {!! Form::open(['url' => 'https://eternaltrusts.com/api/wh', "class"=>"screen--10__form d-block"]) !!}
                     <p class="text-blue fz-2 lh-1_4 font-weight-semibold screen--10__form__title mb-5 text-center text-xl-left">
                         Fill out this form, and we will
                         contact you to help you set up your own fiduciary dApp
@@ -26,31 +26,32 @@
                             <div class="form-inline d-block d-sm-flex flex-nowrap">
 
                                 @include("forms._input", [
-                                "name"=>1,
+                                "name"=>"landing-v1-name",
                                 "placeholder"=>"Your name",
                                 "class"=>"w-100",
-                                "formGroupClass"=>"mr-sm-3 mb-3 flex-grow-1"
+                                "formGroupClass"=>"mr-sm-4 mr-lg-3 mb-4 mb-lg-3 flex-grow-1"
                                 ])
                                 @include("forms._input", [
-                                "name"=>2,
+                                "name"=>"landing-v1-email",
                                 "placeholder"=>"Your e-mail*",
                                 "class"=>"w-100",
-                                "formGroupClass"=>"mb-3 flex-grow-1"
+                                "required"=>true,
+                                "formGroupClass"=>" mb-4 mb-lg-3 flex-grow-1"
                                 ])
                             </div>
                             <div class="form-inline d-block d-sm-flex flex-nowrap">
 
                                 @include("forms._input", [
-                                "name"=>3,
+                                "name"=>"landing-v1-urlLinkedIn",
                                 "placeholder"=>"Link to you linkedin",
                                 "class"=>"w-100",
-                                "formGroupClass"=>"mr-sm-3 mb-3 flex-grow-1"
+                                "formGroupClass"=>"mr-sm-4 mr-lg-3 mb-4 mb-lg-3 flex-grow-1"
                                 ])
                                 @include("forms._input", [
-                                "name"=>4,
+                                "name"=>"landing-v1-company",
                                 "placeholder"=>"Name of your company",
                                 "class"=>"w-100",
-                                "formGroupClass"=>"mb-3 flex-grow-1"
+                                "formGroupClass"=>" mb-4 mb-lg-3 flex-grow-1"
                                 ])
                             </div>
                         </div>
@@ -62,27 +63,37 @@
                                     Company category
                                 </p>
                                 @include("forms._select", [
-                                "name"=>5,
+                                "name"=>"landing-v1-companyCategory",
                                 "placeholder"=>"Private crypto fund",
                                 "class"=>"js-selectric",
                                 "classWrap"=>"mb-3 mt-3 mt-lg-0 mt-xl-3 flex-grow-1",
                                 "list"=>[
-                                1=>"Private crypto fund"
+                                "Private crypto fund"=>"Private crypto fund",
+                                "Trustee service"=>"Trustee service",
+                                "Family office"=>"Family office",
+                                "Charity"=>"Charity",
+                                "Bank"=>"Bank",
+                                "Asset Administration dApp"=>"Asset Administration dApp",
+                                "Biomaterial storage facility"=>"Biomaterial storage facility",
+                                "Pension funds"=>"Pension funds",
+                                "Prediction networks &amp; AI providers"=>"Prediction networks &amp; AI providers",
+                                "Other"=>"Other",
                                 ]
                                 ])
                             </div>
                             <div class="my-3">
                                 @include("forms._checkbox", [
-                                "name"=>6,
+                                "name"=>"accepted",
                                 "class"=>"",
-                                "label"=>'I have read and accepted your <a class="screen--10__form__link" href="#">Privacy Policy</a> and <a class="screen--10__form__link" href="#">Terms of Use</a>',
+                                "required"=>true,
+                                "label"=>'I have read and accepted your <a target="_blank" class="screen--10__form__link" href="https://eternaltrusts.io/docs/mw/privacy.pdf">Privacy Policy</a> and <a target="_blank" class="screen--10__form__link" href="https://eternaltrusts.io/docs/mw/terms.pdf">Terms of Use</a>',
                                 ])
                             </div>
                         </div>
                     </div>
-                <a href="#" class="btn btn-primary btn-block mt-5">
+                <button type="submit" class="btn btn-primary btn-block mt-5">
                     sign up
-                </a>
+                </button>
                 {!! Form::close() !!}
             </div>
         </div>

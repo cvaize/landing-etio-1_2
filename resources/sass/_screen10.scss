@@ -9,6 +9,9 @@
     @include media-breakpoint-down(lg) {
       @include lineGradVertical($green, $cyan, 40%);
     }
+    @include media-breakpoint-only(md) {
+      @include lineGradVertical($green, $cyan, 36%);
+    }
   }
   &__box{
     @media (min-width: 1200px) {
